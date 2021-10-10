@@ -1,0 +1,35 @@
+table {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color:rgb(2, 51, 2);
+}
+
+.noBorderBottom {
+    border-bottom: none;
+}
+
+.noBorderTop {
+    border-top: none;
+}
+
+.description {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mainBlock {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.humanDescription {
+    text-align: justify;
+}
