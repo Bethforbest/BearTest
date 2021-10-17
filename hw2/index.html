@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main_form">
+        <form>
+            <div class="main_form_item">
+                <label for="First Name">First Name
+                    <span class="marker_required">*</span>
+                </label>
+                <br>
+                <input id="First Name" class="input_decoration" type="place" placeholder="First Name" required>
+            </div>
+            <div class="main_form_item">
+                <label for="Last Name">Last Name
+                    <span class="marker_required">*</span>
+                </label>
+                <br>
+                <input id="Last Name" class="input_decoration" type="place" placeholder="Last Name" required>
+            </div>
+            <div class="main_form_item">
+                <label for="Email address">Email address
+                    <span class="marker_required">*</span>
+                </label>
+                <br>
+                <input id="Email address" class="input_decoration" type="email" placeholder="anything@example.com" required>
+            </div>
+            <div class="main_form_item">
+                <label for="Country">Country</label>
+                <br>
+                <select id="Country" class="select_decoration">
+                    <option value="Choose country...">Choose country...</option>
+                    <option value="USA">USA</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="Other country">Other counry</option>
+                </select>
+            </div>
+            <div class="main_form_item">
+                <label for="Enter your password">Enter your password
+                    <span class="marker_required">*</span>
+                </label>
+                <br>
+                <input id="Enter your password" class="input_decoration" type="password">
+            </div>
+            <div class="main_form_item">
+                <label for="How many computers do you have at home?">How many computers do you have at home?</label>
+                <br>
+                <input id="How many computers do you have at home?" class="select_decoration" type="number" min="0">
+            </div>
+            <div class="main_form_item">
+                <input type="checkbox">Subscribe to our news
+            </div>
+            <p class="terms">I agree that letters of various contents will be sent to my e-mail. I promise not to reply to these messages or to mark them as spam.</p>
+            <div class="form_action">
+                <input class="submit_form" type="submit" value="Sign me up!">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
