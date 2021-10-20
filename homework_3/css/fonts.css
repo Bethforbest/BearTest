@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "EurofurenceRegular";
+    src: url("../fonts/EurofurenceRegular/EurofurenceRegular.eot");
+    src: url("../fonts/EurofurenceRegular/EurofurenceRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/EurofurenceRegular/EurofurenceRegular.woff") format("woff"),
+    url("../fonts/EurofurenceRegular/EurofurenceRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "EurofurenceBold";
+    src: url("../fonts/EurofurenceBold/EurofurenceBold.eot");
+    src: url("../fonts/EurofurenceBold/EurofurenceBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/EurofurenceBold/EurofurenceBold.woff") format("woff"),
+    url("../fonts/EurofurenceBold/EurofurenceBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "EurofurenceItalic";
+    src: url("../fonts/EurofurenceItalic/EurofurenceItalic.eot");
+    src: url("../fonts/EurofurenceItalic/EurofurenceItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/EurofurenceItalic/EurofurenceItalic.woff") format("woff"),
+    url("../fonts/EurofurenceItalic/EurofurenceItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "EurofurenceLight";
+    src: url("../fonts/EurofurenceLight/EurofurenceLight.eot");
+    src: url("../fonts/EurofurenceLight/EurofurenceLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/EurofurenceLight/EurofurenceLight.woff") format("woff"),
+    url("../fonts/EurofurenceLight/EurofurenceLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "EurofurenceBoldItalic";
+    src: url("../fonts/EurofurenceBoldItalic/EurofurenceBoldItalic.eot");
+    src: url("../fonts/EurofurenceBoldItalic/EurofurenceBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/EurofurenceBoldItalic/EurofurenceBoldItalic.woff") format("woff"),
+    url("../fonts/EurofurenceBoldItalic/EurofurenceBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "EurofurenceLightItalic";
+    src: url("../fonts/EurofurenceLightItalic/EurofurenceLightItalic.eot");
+    src: url("../fonts/EurofurenceLightItalic/EurofurenceLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/EurofurenceLightItalic/EurofurenceLightItalic.woff") format("woff"),
+    url("../fonts/EurofurenceLightItalic/EurofurenceLightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IsadoraBold";
+    src: url("../fonts/IsadoraBold/IsadoraBold.eot");
+    src: url("../fonts/IsadoraBold/IsadoraBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/IsadoraBold/IsadoraBold.woff") format("woff"),
+    url("../fonts/IsadoraBold/IsadoraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PecitaBook";
+    src: url("../fonts/PecitaBook/PecitaBook.eot");
+    src: url("../fonts/PecitaBook/PecitaBook.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PecitaBook/PecitaBook.woff") format("woff"),
+    url("../fonts/PecitaBook/PecitaBook.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SladkoeshkaRegular";
+    src: url("../fonts/SladkoeshkaRegular/SladkoeshkaRegular.eot");
+    src: url("../fonts/SladkoeshkaRegular/SladkoeshkaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SladkoeshkaRegular/SladkoeshkaRegular.woff") format("woff"),
+    url("../fonts/SladkoeshkaRegular/SladkoeshkaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "TorhokItalic";
+    src: url("../fonts/TorhokItalic/TorhokItalic.eot");
+    src: url("../fonts/TorhokItalic/TorhokItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/TorhokItalic/TorhokItalic.woff") format("woff"),
+    url("../fonts/TorhokItalic/TorhokItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "VelesRegular";
+    src: url("../fonts/VelesRegular/VelesRegular.eot");
+    src: url("../fonts/VelesRegular/VelesRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/VelesRegular/VelesRegular.woff") format("woff"),
+    url("../fonts/VelesRegular/VelesRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "VelesBold";
+    src: url("../fonts/VelesBold/VelesBold.eot");
+    src: url("../fonts/VelesBold/VelesBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/VelesBold/VelesBold.woff") format("woff"),
+    url("../fonts/VelesBold/VelesBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BickhamScriptTwoRegular";
+    src: url("../fonts/BickhamScriptTwoRegular/BickhamScriptTwoRegular.eot");
+    src: url("../fonts/BickhamScriptTwoRegular/BickhamScriptTwoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/BickhamScriptTwoRegular/BickhamScriptTwoRegular.woff") format("woff"),
+    url("../fonts/BickhamScriptTwoRegular/BickhamScriptTwoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "AsiaASNormal";
+    src: url("../fonts/AsiaASNormal/AsiaASNormal.eot");
+    src: url("../fonts/AsiaASNormal/AsiaASNormal.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AsiaASNormal/AsiaASNormal.woff") format("woff"),
+    url("../fonts/AsiaASNormal/AsiaASNormal.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

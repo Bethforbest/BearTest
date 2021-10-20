@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+.page_options {
+    font-size: 40px;
+    width: 100%;
+}
+
+p {
+    margin: 25px;
+}
+
+.text_red {
+    font-family: "EurofurenceItalic";
+    color: red;
+    text-align: left;
+    font-style: revert;
+}
+
+.text_orange {
+    font-family: "EurofurenceRegular";
+    color: orange;
+    text-align: center;
+    text-decoration: underline overline;
+}
+ 
+.text_yellow {
+    font-family: "EurofurenceBold";
+    color: yellow;
+    text-align: right;
+    text-transform: capitalize;
+}
+
+.text_green {
+    font-family: "EurofurenceItalic";
+    color: green;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.text_skyblue {
+    font-family: "EurofurenceLight";
+    color: skyblue;
+    text-align: left;
+    text-transform: lowercase;
+}
+
+.text_navy {
+    font-family: "EurofurenceBoldItalic";
+    color: navy;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.text_purple {
+    font-family: EurofurenceLightItalic;
+    color: purple;
+    text-align: right;
+}
+
+.block_left {
+    width: 46%;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+    border: 5px solid blueviolet;
+    text-transform: uppercase;
+}
+
+.block_right {
+    width: 46%;
+    margin: 15px;
+    padding: 15px;
+    float: right;
+    border: 5px solid yellow;
+}
+
+.block_right > p:nth-child(1) {
+    font-family: "IsadoraBold";
+    color: red;
+    text-align: left;
+    text-decoration: overline;
+}
+
+.block_right > p:nth-child(2) {
+    font-family: "PecitaBook";
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.block_right > p:nth-child(3) {
+    font-family: "SladkoeshkaRegular";
+    color: yellow;
+    text-align: right;
+}
+
+.block_right > p:nth-child(4) {
+    font-family: "TorhokItalic";
+    color: green;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.block_right > p:nth-child(5) {
+    font-family: "VelesRegular";
+    color: skyblue;
+    text-align: left;
+}
+
+.block_right > p:nth-child(6) {
+    font-family: "BickhamScriptTwoRegular";
+    color: navy;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: underline overline;
+}
+
+.block_right > p:nth-child(7) {
+    font-family: "AsiaASNormal";
+    color: violet;
+    text-align: right;
+}
