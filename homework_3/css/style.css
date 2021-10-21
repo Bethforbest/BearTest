@@ -60,7 +60,7 @@ p {
 }
 
 .block_left {
-    width: 46%;
+    min-width: 46%;
     margin: 15px;
     padding: 15px;
     float: left;
@@ -69,7 +69,7 @@ p {
 }
 
 .block_right {
-    width: 46%;
+    min-width: 46%;
     margin: 15px;
     padding: 15px;
     float: right;
