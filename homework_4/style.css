@@ -1,0 +1,157 @@
+body {
+    background: bisque;
+}
+
+h1 {
+    color: rgb(30, 160, 30);
+    padding: 0px 30px;
+}
+
+h1 span {
+    background: yellow;
+}
+
+h1 span:hover {
+    background:plum;
+    letter-spacing: 15px;
+    color: yellow;
+}
+
+.list {
+    list-style: url(/img.png) outside;
+    background: white;
+    font-size: 20px;
+    color: #421010;
+    padding: 10px 50px;
+    border: 2px inset crimson;
+    margin: 0px 30px;
+}
+
+.list-item {
+    list-style-type: lower-greek;
+    font-size: 20px;
+}
+
+.list-item_link {
+    color: crimson;
+}
+
+.list-item:not(li[class="list-item"]:nth-child(7)):hover::before {
+    content: url(/image.png);
+}
+
+.list-item:not(li[class="list-item"]:nth-child(7)):hover::after {
+    content: " Try it now!";
+    color: blue;
+    font-style: italic;
+}
+
+ul[class="list"] li[class="list-item"]:nth-child(7):hover {
+    background:plum;
+    font-size: 25px;
+    content: none;
+}
+
+li p:nth-child(4):active {
+    font-style: italic;
+    text-decoration: line-through;
+    color: red;
+}
+
+.list-item_text {
+    background-color: #b81c1c43;
+    border: 3px double indigo;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: cursive;
+    color: indigo;
+    padding: 5px 10px;
+}
+
+.account-form {
+    margin: 40px;
+}
+
+form input, textarea {
+    border-radius: 10px;
+}
+
+.account-form_input {
+    border: 2px solid grey;
+    width: 15%;
+    min-height: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+input[id="account-form_checkbox"] { 
+    width: 40px;
+    height: 40px;
+    margin: 20px 0px;
+} 
+
+input[id="account-form_checkbox"]:checked { 
+    width: 20px;
+    height: 20px;
+} 
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+img:hover {
+    border-radius: 50px;
+    background: lightblue;
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+form button[type="submit"] {
+    color: blue;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+    display: block;
+    margin: 20px 0px;
+}
+
+.multicolored_block {
+    background: burlywood;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+div p {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+div :first-child {
+    background: green;
+}
+
+div :nth-child(even) {
+    background: blue;
+}
+
+div :nth-child(n+2) {
+    background: blue;
+}
+
+div :nth-child(2n+8) {
+    background:yellow;
+}
+
+div :nth-child(5) {
+    background:green;
+}
+
+div :nth-child(6n+3) {
+    background:red;
+}
+
+div :nth-child(7n+4) {
+    background: orange;
+}
