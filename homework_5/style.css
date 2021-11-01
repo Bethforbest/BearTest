@@ -131,4 +131,5 @@ div[class="div_2"] span {
     line-height: 50px;
     position: sticky;
     bottom: 0;
+    z-index: 5;
 }
