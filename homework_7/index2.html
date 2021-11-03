@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <p class="navigation-title">HomeWork:</p>
+        <a href="/homework_7/index.html">First task</a>
+        <a href="/homework_7/index2.html">Second task</a>
+    </nav>
+    <form class="signUpForm">
+        <div class="signUpForm__item">
+            <label for="First Name">First Name
+                <span class="signUpForm__label_required">*</span>
+            </label>
+            <br>
+            <input id="First Name" class="signUpForm__input" type="place" placeholder="First Name" required>
+        </div>
+        <div class="signUpForm__item">
+            <label for="Last Name">Last Name
+                <span class="signUpForm__label_required">*</span>
+            </label>
+            <br>
+            <input id="Last Name" class="signUpForm__input" type="place" placeholder="Last Name" required>
+        </div>
+        <div class="signUpForm__item">
+            <label for="Email address">Email address
+                <span class="signUpForm__label_required">*</span>
+            </label>
+            <br>
+            <input id="Email address" class="signUpForm__input" type="email" placeholder="anything@example.com" required>
+        </div>
+        <div class="signUpForm__item">
+            <label for="Country">Country</label>
+            <br>
+            <select id="Country" class="signUpForm__select">
+                <option value="Choose country...">Choose country...</option>
+                <option value="USA">USA</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="Russia">Russia</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Other country">Other counry</option>
+            </select>
+        </div>
+        <div class="signUpForm__item">
+            <label for="Enter your password">Enter your password
+                <span class="signUpForm__label_required">*</span>
+            </label>
+            <br>
+            <input id="Enter your password" class="signUpForm__input" type="password">
+        </div>
+        <div class="signUpForm__item">
+            <label for="How many computers do you have at home?">How many computers do you have at home?</label>
+            <br>
+            <input id="How many computers do you have at home?" class="signUpForm__select" type="number" min="0">
+        </div>
+        <div class="signUpForm__item">
+            <input type="checkbox">Subscribe to our news
+        </div>
+        <p class="signUpForm__terms">I agree that letters of various contents will be sent to my e-mail. I promise not to reply to these messages or to mark them as spam.</p>
+        <div class="signUpForm__submit">
+            <input class="signUpForm__submitButton" type="submit" value="Sign me up!">
+        </div>
+    </form>
+</body>
+</html>
